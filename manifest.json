@@ -10,7 +10,8 @@
   "content_scripts": [
       {
         "matches": [
-          "http://www.elpais.com.uy/*"
+          "http://www.elpais.com.uy/*",
+          "http://www.tvshow.com.uy/*"
         ],
         "js": ["content.js"],
         "run_at": "document_idle"
