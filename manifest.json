@@ -11,7 +11,8 @@
       {
         "matches": [
           "http://www.elpais.com.uy/*",
-          "http://www.tvshow.com.uy/*"
+          "http://www.tvshow.com.uy/*",
+          "http://www.ovaciondigital.com.uy/*"
         ],
         "js": ["content.js"],
         "run_at": "document_idle"
