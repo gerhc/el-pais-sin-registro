@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "El Pais Sin Registro",
+  "version": "0.1",
+  "content_scripts": [
+      {
+        "matches": [
+          "http://www.elpais.com.uy/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+}
